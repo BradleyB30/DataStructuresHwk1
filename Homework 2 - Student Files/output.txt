@@ -1,0 +1,78 @@
+My Grocery List
+    0:  "",  "",  "eggs",  0
+    1:  "",  "",  "milk",  0
+    2:  "",  "",  "hot dogs",  0
+    3:  "",  "",  "bread",  0
+
+My roommate's Grocery List
+    0:  "",  "Ruffles",  "potato chips",  0
+    1:  "",  "Frito Lays",  "potato chips",  0
+    2:  "",  "Bud Lite",  "beer",  0
+    3:  "",  "",  "eggs",  0
+    4:  "",  "",  "pretzels",  0
+
+Combined Grocery Lists
+    0:  "",  "",  "eggs",  0
+    1:  "",  "",  "milk",  0
+    2:  "",  "",  "hot dogs",  0
+    3:  "",  "Lakes 'Ole",  "butter",  0
+    4:  "",  "",  "bread",  0
+    5:  "",  "",  "bananas",  0
+    6:  "",  "",  "apples",  0
+    7:  "",  "Ruffles",  "potato chips",  0
+    8:  "",  "Frito Lays",  "potato chips",  0
+    9:  "",  "",  "pretzels",  0
+
+
+Expected results:
+    0:  "",  "",  "eggs",  0
+    1:  "",  "",  "milk",  0
+    2:  "",  "",  "hot dogs",  0
+    3:  "",  "Lakes 'Ole",  "butter",  0
+    4:  "",  "",  "bread",  0
+    5:  "",  "",  "bananas",  0
+    6:  "",  "",  "apples",  0
+    7:  "",  "Ruffles",  "potato chips",  0
+    8:  "",  "Frito Lays",  "potato chips",  0
+    9:  "",  "",  "pretzels",  0
+
+
+Actual results:  
+    0:  "",  "",  "eggs",  0
+    1:  "",  "",  "milk",  0
+    2:  "",  "",  "hot dogs",  0
+    3:  "",  "Lakes 'Ole",  "butter",  0
+    4:  "",  "",  "bread",  0
+    5:  "",  "",  "bananas",  0
+    6:  "",  "",  "apples",  0
+    7:  "",  "Ruffles",  "potato chips",  0
+    8:  "",  "Frito Lays",  "potato chips",  0
+    9:  "",  "",  "pretzels",  0
+
+
+Test results:    PASS
+proteinList: 
+    0:  "",  "",  "turkey",  0
+    1:  "",  "",  "chicken",  0
+    2:  "",  "",  "steak",  0
+veggieList: 
+    0:  "",  "",  "corn",  0
+    1:  "",  "",  "salad",  0
+    2:  "",  "",  "carrots",  0
+dessertList: 
+    0:  "",  "",  "cake",  0
+    1:  "",  "",  "ice cream",  0
+    2:  "",  "",  "pie",  0
+
+Combined into shopping list:
+
+    0:  "",  "",  "turkey",  0
+    1:  "",  "",  "chicken",  0
+    2:  "",  "",  "steak",  0
+    3:  "",  "",  "corn",  0
+    4:  "",  "",  "salad",  0
+    5:  "",  "",  "carrots",  0
+    6:  "",  "",  "cake",  0
+    7:  "",  "",  "ice cream",  0
+    8:  "",  "",  "pie",  0
+
